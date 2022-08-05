@@ -1,0 +1,14 @@
+.right {
+  float: right;
+  color: white;
+
+}
+
+.left {
+  float: left;
+  background-color: white;
+}
+
+.nav-color {
+  background-color: #703b09 !important;
+}
