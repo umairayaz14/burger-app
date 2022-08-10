@@ -1,14 +1,14 @@
-import top from "./top.jpeg";
-import bottom from "./bottom.jpg";
-import lettuse from "./lettuse.jpg";
+import top from "../images/top.jpeg";
+import bottom from "../images/bottom.jpg";
+import lettuse from "../images/lettuse.jpg";
 import meat from '../images/meat.jpg';
-import cheese from './cheese.jpg';
-import bacon from './tomato.jpg';
+import cheese from '../images/cheese.jpg';
+import bacon from '../images/tomato.jpg';
 import './burger.css';
-import React, { useState }  from 'react';
+import React from 'react';
 
 const Burger = (props) => {
-  const [images, setImages] = useState([lettuse, bacon, cheese, meat ]);
+  const images = [lettuse, bacon, cheese, meat ]
   console.log("array", images[1]);
   //console.log("array1", props.ing.map((i) => Array.from(Array(i.count)).map((k) =>  <p key={k}><img src={images[i.id]} alt="" /></p>)))
 
